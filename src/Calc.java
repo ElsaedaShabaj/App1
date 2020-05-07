@@ -9,7 +9,6 @@ public class Calc extends JFrame {
     private JButton mbledhButton;
     private JButton daljeButton;
     private JTextField textField3;
-    private JPanel frame;
     public Calc() {
         daljeButton.addActionListener(new ActionListener() {
             @Override
@@ -40,11 +39,4 @@ public class Calc extends JFrame {
             }
         });
     }
-//    public static void main(String [] args){
-//        Calc calcFrame = new Calc();
-//        calcFrame.setContentPane(calcFrame.frame);
-//        calcFrame.pack();
-//        calcFrame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-//        calcFrame.setVisible(true);
-//    }
 }
